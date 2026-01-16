@@ -338,7 +338,9 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		/* color: #000000; */
+		color: #EBEBEB;
+		/* color change */
 	}
 
 	blockquote {
@@ -8661,5 +8663,6 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
 
 
