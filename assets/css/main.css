@@ -2515,13 +2515,18 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #000000;
-			background: #ffffff;
+			/* color: #000000;
+			background: #ffffff; */
+			color: #EBEBEB;
+			background: #292727;
+			/* color change */
 		}
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #000000;
+		/* color: #000000; */
+		color: #EBEBEB;
+		/* color change */
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2531,9 +2536,13 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #000000;
+		/* background-color: #000000;
 		border-color: #000000;
-		color: #ffffff;
+		color: #ffffff; */
+		background-color: #EBEBEB;
+		border-color: #EBEBEB;
+		color: #292727;
+		/* color change */
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -3019,7 +3028,9 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #000000;
+		/* color: #000000; */
+		color: #EBEBEB;
+		/* color change */
 	}
 
 	table thead {
@@ -6360,8 +6371,11 @@ input, select, textarea {
 /* Gallery (style1) */
 
 	.gallery.style1 {
-		background-color: #000000;
-		color: #ffffff;
+		/* background-color: #000000;
+		color: #ffffff; */
+		background-color: #EBEBEB;
+		color: #292727;
+		/* color change */
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -6384,11 +6398,15 @@ input, select, textarea {
 	}
 
 		.gallery.style1 input, .gallery.style1 select, .gallery.style1 textarea {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change */
 		}
 
 		.gallery.style1 a {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change */
 		}
 
 			.gallery.style1 a:hover {
@@ -6396,11 +6414,15 @@ input, select, textarea {
 			}
 
 		.gallery.style1 strong, .gallery.style1 b {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change */
 		}
 
 		.gallery.style1 h1, .gallery.style1 h2, .gallery.style1 h3, .gallery.style1 h4, .gallery.style1 h5, .gallery.style1 h6 {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change */
 		}
 
 		.gallery.style1 blockquote {
@@ -6423,7 +6445,9 @@ input, select, textarea {
 		.gallery.style1 .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px white;
-			color: #ffffff !important;
+			/* color: #ffffff !important; */
+			color: #292727;
+			/* color change */
 		}
 
 			.gallery.style1 input[type="submit"]:hover,
@@ -6450,9 +6474,13 @@ input, select, textarea {
 			.gallery.style1 input[type="button"].primary,
 			.gallery.style1 button.primary,
 			.gallery.style1 .button.primary {
-				background-color: #ffffff;
+				/* background-color: #ffffff;
 				box-shadow: none;
-				color: #000000 !important;
+				color: #000000 !important; */
+				background-color: #292727;
+				box-shadow: none;
+				color: #EBEBEB !important;
+				/* color change */
 			}
 
 				.gallery.style1 input[type="submit"].primary:hover,
@@ -6696,8 +6724,11 @@ input, select, textarea {
 /* Gallery (style2) */
 
 	.gallery.style2 {
-		background-color: #000000;
-		color: #ffffff;
+		/* background-color: #000000;
+		color: #ffffff; */
+		background-color: #EBEBEB;
+		color: #292727;
+		/* color change */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -6708,11 +6739,15 @@ input, select, textarea {
 	}
 
 		.gallery.style2 input, .gallery.style2 select, .gallery.style2 textarea {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change*/
 		}
 
 		.gallery.style2 a {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change*/
 		}
 
 			.gallery.style2 a:hover {
@@ -6720,11 +6755,15 @@ input, select, textarea {
 			}
 
 		.gallery.style2 strong, .gallery.style2 b {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change*/
 		}
 
 		.gallery.style2 h1, .gallery.style2 h2, .gallery.style2 h3, .gallery.style2 h4, .gallery.style2 h5, .gallery.style2 h6 {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: #292727;
+			/* color change*/
 		}
 
 		.gallery.style2 blockquote {
@@ -6747,7 +6786,9 @@ input, select, textarea {
 		.gallery.style2 .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px white;
-			color: #ffffff !important;
+			color: #292727 !important;
+			color: #292727 !important;
+			/* color change */
 		}
 
 			.gallery.style2 input[type="submit"]:hover,
@@ -6774,9 +6815,13 @@ input, select, textarea {
 			.gallery.style2 input[type="button"].primary,
 			.gallery.style2 button.primary,
 			.gallery.style2 .button.primary {
-				background-color: #ffffff;
+				/* background-color: #ffffff;
 				box-shadow: none;
-				color: #000000 !important;
+				color: #000000 !important; */
+				background-color: #292727;
+				box-shadow: none;
+				color: #EBEBEB !important;
+				/* color change */
 			}
 
 				.gallery.style2 input[type="submit"].primary:hover,
@@ -7278,7 +7323,9 @@ input, select, textarea {
 
 		.wrapper.style2 > .inner {
 			padding: 5.25rem 3.5rem 3.25rem 3.5rem ;
-			background-color: #ffffff;
+			/* background-color: #ffffff; */
+			background-color: #292727;
+			/* color change */
 			border-radius: 0.5rem;
 			margin: 0 auto;
 			max-width: 100%;
@@ -8266,8 +8313,11 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
+			/* background-color: #000000;
+			color: #ffffff; */
 			background-color: #000000;
 			color: #ffffff;
+			/* color change */
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -8611,4 +8661,5 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
 
