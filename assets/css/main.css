@@ -5,6 +5,7 @@
 	Story by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -152,8 +153,11 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
-		color: #000000;
+		/* background-color: #ffffff;
+		color: #000000; */
+		background-color: #292727;
+		color: #EBEBEB;
+		/* COLOR CHANGE  */
 	}
 
 	body, input, select, textarea {
@@ -2215,9 +2219,13 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
+			/* background-color: #000000;
+			box-shadow: none;
+			color: #ffffff !important; */
 			background-color: #000000;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #292727 !important; 
+			/* COLOR CHANGE  */
 		}
 
 			input[type="submit"].primary:hover,
